@@ -1,0 +1,29 @@
+{
+  "name": "intro-to-npm-readme",
+  "version": "1.0.0",
+  "description": "fds",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-co-curriculum/intro-to-npm-readme.git"
+  },
+  "keywords": [
+    "scripts"
+  ],
+  "author": "naush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkhiljee/npm-lab-houston-web-062419/issues"
+  },
+  "homepage": "https://github.com/nkhiljee/npm-lab-houston-web-062419#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
