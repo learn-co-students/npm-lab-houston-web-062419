@@ -1,0 +1,29 @@
+{
+  "name": "npm-lab-houston-web-062419",
+  "version": "1.0.0",
+  "description": "Install a package and functionalities ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abideen11/npm-lab-houston-web-062419.git"
+  },
+  "keywords": [
+    "pack"
+  ],
+  "author": "flatironstudent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abideen11/npm-lab-houston-web-062419/issues"
+  },
+  "homepage": "https://github.com/abideen11/npm-lab-houston-web-062419#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
